@@ -1,8 +1,20 @@
 .text-style{
-    color: rgb(194, 14, 14);
+    color: rgb(124, 12, 12);
     letter-spacing: 10px;
     word-spacing: 50px;
     text-decoration: underline;
     text-align: left;
+    font-family: "body-text";
     font-size: 50px ;
+    
+}
+@font-face
+{
+    font-family: "body-text";
+    src: url(fonts/DancingScript-VariableFont_wght.ttf);
+}
+.font-class{
+    font-family: "body-text";
+    font-size: 15px;
+font-weight: 400;
 }
