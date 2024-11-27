@@ -1,0 +1,14 @@
+.module13 ol{ 
+    list-style-type: disc;
+    
+}
+.module13 li{
+border-bottom: 5px solid brown;
+color:green;
+}
+td, th{
+    border: 10px solid;
+    padding: 20px;
+    border-collapse: collapse;
+    border-color: blue;
+}
