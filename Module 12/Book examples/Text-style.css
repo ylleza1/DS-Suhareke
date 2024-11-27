@@ -18,3 +18,8 @@
     font-size: 15px;
 font-weight: 400;
 }
+a{color: brown;}
+a:link{color: chartreuse;}
+a:visited{color: aqua;}
+a:hover{color: blue;}
+a:active{color: blueviolet;}
