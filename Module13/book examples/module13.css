@@ -12,3 +12,17 @@ td, th{
     border-collapse: collapse;
     border-color: blue;
 }
+ table tr:nth-child(odd)
+{background-color: brown;
+color: aqua;
+}
+table tr:nth-child(even)
+{background-color: rgb(61, 61, 129);
+color: rgb(102, 74, 128);}
+div{
+    width: 200px;
+    height: 400px;
+    background-color: brown;
+    overflow:scroll ;
+    overflow-y: auto;
+}
