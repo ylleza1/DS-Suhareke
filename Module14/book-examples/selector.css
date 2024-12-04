@@ -1,0 +1,20 @@
+ article >p {
+    
+    color: brown;
+    text-shadow: 10px;
+}
+article >div>p {
+    color: aqua;
+}
+article +p{color: blue;}
+article +p+p{color: blueviolet;}
+input:in-range{background-color: rgb(84, 126, 56);}
+input:out-of-range{background-color: rgb(255, 0, 0);}
+input:focus{background-color: blue;}
+input:required{background-color: blueviolet;}
+p:first-of-type{background-color:rgb(221, 103, 103);}
+
+p::first-letter{color: black;}
+p::first-line{color: blue;}
+P::after{content:url(Iphone.png)}
+p::selection{background-color: blue;}
