@@ -1,7 +1,17 @@
-.static
-{ border: 1px solid gold;
+
+.relative
+{ border: 1px solid rgb(125, 255, 65);
     width: 300px;
     height: 300px;
-    position: static;
+    position: relative;
     padding: 10px;
+    bottom: 20px;
+}
+.absolute
+{
+    border: 1px solid rgb(231, 255, 11);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left:calc(50% - 15px)
 }
