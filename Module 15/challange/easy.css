@@ -1,0 +1,25 @@
+
+.relative
+{ border: 1px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    padding: 10px;
+    bottom: 20px;
+}
+.absolute
+{
+    border: 1px solid rgb(0, 0, 0);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left:calc(50% - 15px)
+}
+.static{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    position: static;
+padding: 20px;
+
+}
