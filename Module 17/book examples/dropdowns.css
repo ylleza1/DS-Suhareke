@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+    color: brown;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    padding: 5px 10px;
+    border: 1px solid burlywood;
+    left: 0;
+    top: 20px ;
+    -webkit-box-shadow: -63px 45px 61px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -63px 45px 61px 0px rgba(0,0,0,0.75);
+box-shadow: -63px 45px 61px 0px rgba(0,0,0,0.75);
+}
+.dropdown a:hover + .dropdown-content{
+    display: inline-block;
+}
