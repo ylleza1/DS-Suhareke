@@ -39,5 +39,6 @@ h2::before{
     padding-box
     content-box
     red;
+    box-shadow: 150px 100px 150px 5px gray;
 
 }
