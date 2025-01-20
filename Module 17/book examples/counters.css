@@ -1,0 +1,43 @@
+body{
+    counter-reset: number;
+}
+h2::before{
+    counter-increment: number;
+    content: counter(number);
+    border-radius: 50%;
+    background-color: brown;
+    margin: 15px;
+
+}
+.hi{
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px; 
+}
+.hello{
+    width: 200px;
+    height: 200px;
+    border: 30px solid;
+    border-image: url(ipad.webp) 25 25 round;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+
+}
+.shkolla{
+    width: 500px;
+    height: 500px;
+    background: url(ipad.webp)
+    top center / 200px 200px
+    no-repeat
+    fixed
+    padding-box
+    content-box
+    red;
+
+}
