@@ -1,0 +1,33 @@
+.translate{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    color: blueviolet;
+    padding: 10px;
+    transform: rotatex(500deg);
+    transform: rotatey(500deg);
+}
+.scale{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    color: rgba(212, 15, 25, 0.623);
+    padding: 10px;
+    transform: rotatex(500deg);
+    transform: rotatey(500deg);
+}
+.treni{
+    transition: all 1s ease-in-out;
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    transform: skew(20)
+               ;
+    
+}
+.treni:hover{
+    transform: translate(500px);
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
