@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+#section-1{
+    background-color: #87509c;
+    height: 600px;
+}
+.logo{
+    font-size: 42px;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav ul {
+    list-style-type: none; /* Remove bullets from list */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Make list items appear horizontally */
+}
+
+nav ul li {
+    margin-right: 20px; /* Space between the menu items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* You can change this to any color */
+    padding: 10px; /* Add some padding for clickable area */
+}
+
+nav ul li a:hover {
+    background-color: gray; /* Optional hover effect */
+}
+.main-heading{
+    text-align: center;
+    margin-top: 250px;
+}
+h1{
+    font-size: 42px;
+}
+.main-heading a{
+    background-color: orange;
+}
